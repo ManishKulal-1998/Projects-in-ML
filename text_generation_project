@@ -4,10 +4,10 @@ import nltk
 nltk.download('stopwords')
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords
-from keras.models import Sequential
-from keras.layers import Dense,Dropout,LSTM
-from keras.utils import np_utils
-from keras.callbacks import ModelCheckpoint
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers import Dense,Dropout,LSTM
+from tensorflow.python.keras.utils import np_utils
+from tensorflow.python.keras.callbacks import ModelCheckpoint
 
 file= open('frankenstein-2.txt',encoding="utf=8").read()
 
